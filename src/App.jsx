@@ -36,10 +36,10 @@ function App() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge">23 Years of Experience in LIC</div>
-            <h1>Securing Families & Empowering Dreams through LIC.</h1>
+            <div className="hero-badge">Complete Financial Protection</div>
+            <h1>23 Years of Experience in LIC.</h1>
             <p>
-              With over 23 years of dedicated experience in LIC, we help people achieve lifelong financial security. From robust life insurance policies to comprehensive wealth planning, we ensure your family’s dreams are protected under every circumstance.
+              Securing families and empowering dreams. We help people achieve lifelong financial security through robust life insurance policies and comprehensive wealth planning, ensuring your family’s future is protected under every circumstance.
             </p>
             <div className="hero-cta">
               <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ textDecoration: 'none', display: 'inline-flex' }}>
