@@ -36,12 +36,10 @@ function App() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge">Insurance · Legal · Advisory</div>
-            <h1>Financial Protection & Legal Compliance Under One Roof.</h1>
+            <div className="hero-badge">Insurance · Financial Planning · Advisory</div>
+            <h1>Complete Financial Protection & Wealth Management.</h1>
             <p>
-              We bridge the gap between rigorous legal strategy and robust financial protection.
-              Authoritative advisory services handling your most critical paperwork, estate planning,
-              and taxation with uncompromising integrity.
+              With over 23 years of dedicated service in LIC, we provide robust financial protection and comprehensive advisory services. From securing your family's future to estate planning and wealth management with uncompromising integrity.
             </p>
             <div className="hero-cta">
               <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ textDecoration: 'none', display: 'inline-flex' }}>
@@ -59,8 +57,8 @@ function App() {
       <section className="features" id="services">
         <div className="container">
           <div className="section-header">
-            <h2>Comprehensive Protection & Advisory</h2>
-            <p>From securing your family’s future with top-tier insurance to solidifying your estate and corporate legal structures, we offer holistic consultation.</p>
+            <h2>Comprehensive Insurance & Financial Advisory</h2>
+            <p>From securing your family’s future with top-tier insurance to solidifying your long-term wealth strategy, we offer holistic consultation backed by 23 years of LIC excellence.</p>
           </div>
 
           <div className="features-grid">
@@ -74,10 +72,10 @@ function App() {
 
             <div className="feature-card">
               <div className="feature-icon">
-                <Scale />
+                <Briefcase />
               </div>
-              <h3>Legal & Compliance</h3>
-              <p>Proactive legal safeguards for individuals and businesses. From contract drafting to regulatory compliance and dispute resolution strategy.</p>
+              <h3>Wealth Management</h3>
+              <p>Strategic financial planning for individuals and families. We help you build a secure future through disciplined saving and investment strategies.</p>
             </div>
 
             <div className="feature-card">
@@ -100,8 +98,8 @@ function App() {
               alt="Professional Advisory Discussion"
             />
             <div className="trust-overlay">
-              <h3 style={{ margin: 0, fontSize: '2rem', fontFamily: 'Playfair Display' }}>15+ Years</h3>
-              <p style={{ margin: 0, opacity: 0.9 }}>Combined Expertise</p>
+              <h3 style={{ margin: 0, fontSize: '2rem', fontFamily: 'Playfair Display' }}>23+ Years</h3>
+              <p style={{ margin: 0, opacity: 0.9 }}>LIC Service Excellence</p>
             </div>
           </div>
 
@@ -112,24 +110,24 @@ function App() {
               Led by Bala Gangadhar Tilak
             </h3>
             <p style={{ color: 'var(--text-light)', fontSize: '1.125rem', marginBottom: '1.5rem' }}>
-              We are not a startup experimenting with advice. LIC for you is built on a
-              foundation of hard-earned trust, meticulous attention to detail, and a deep understanding
-              of both statutory frameworks and financial instruments.
+              With over 23 years of distinguished service as an LIC advisor, Bala Gangadhar Tilak brings a
+              wealth of experience, deep understanding of financial instruments, and a commitment to
+              securing his clients' families for generations.
             </p>
 
             <ul className="trust-list">
               <li>
                 <CheckCircle2 className="check-icon" />
                 <div>
-                  <h4>Integrated Approach</h4>
-                  <p>Legal foresight combined with insurance-backed security, eliminating gaps in your protection.</p>
+                  <h4>Proven Experience</h4>
+                  <p>23 years of navigating market changes and delivering consistent insurance-backed security for families.</p>
                 </div>
               </li>
               <li>
                 <CheckCircle2 className="check-icon" />
                 <div>
-                  <h4>Absolute Confidentiality</h4>
-                  <p>Your institutional and personal data is handled with strict attorney-client level privilege.</p>
+                  <h4>Personalized Service</h4>
+                  <p>Custom-tailored financial planning that adapts to your changing life stages and long-term goals.</p>
                 </div>
               </li>
               <li>
@@ -148,7 +146,7 @@ function App() {
       <section className="final-cta">
         <div className="container">
           <h2>Ready to secure your legacy?</h2>
-          <p>Schedule a preliminary consultation with our senior advisors to map out your legal and financial perimeter.</p>
+          <p>Schedule a consultation today to map out a clear financial plan tailored to your family's needs.</p>
           <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.125rem', textDecoration: 'none' }}>
             Chat on WhatsApp <Phone size={20} style={{ marginLeft: '10px' }} />
           </a>
@@ -168,17 +166,17 @@ function App() {
                 Bala Gangadhar Tilak
               </p>
               <p className="footer-about">
-                Authority in legal strategy and financial protection. We handle the paperwork so you can focus on what matters most.
+                23 Years of Excellence in Financial Protection and Wealth Management. We handle the planning so you can focus on what matters most.
               </p>
             </div>
 
             <div className="footer-col">
-              <h4>Practice Areas</h4>
+              <h4>Services</h4>
               <div className="footer-links">
-                <a href="#">Insurance Assessment</a>
-                <a href="#">Corporate Compliance</a>
-                <a href="#">Estate Planning</a>
-                <a href="#">Taxation Advisory</a>
+                <a href="#">Life Insurance</a>
+                <a href="#">Health Insurance</a>
+                <a href="#">Retirement Planning</a>
+                <a href="#">Child Education Plans</a>
               </div>
             </div>
 
