@@ -107,6 +107,10 @@ function App() {
 
           <div className="trust-content">
             <h2>Authority You Can Rely On.</h2>
+            <h3 style={{ color: 'var(--lic-navy)', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
+              <ShieldCheck size={24} color="var(--lic-yellow)" />
+              Led by Bala Gangadhar Tilak
+            </h3>
             <p style={{ color: 'var(--text-light)', fontSize: '1.125rem', marginBottom: '1.5rem' }}>
               We are not a startup experimenting with advice. LIC for you is built on a
               foundation of hard-earned trust, meticulous attention to detail, and a deep understanding
@@ -160,6 +164,9 @@ function App() {
                 <ShieldCheck size={24} color="var(--lic-yellow)" style={{ display: 'inline', verticalAlign: 'middle', marginRight: '8px' }} />
                 LIC <span>for you</span>
               </div>
+              <p className="footer-about" style={{ fontWeight: '600', color: 'var(--white)', marginBottom: '0.5rem' }}>
+                Bala Gangadhar Tilak
+              </p>
               <p className="footer-about">
                 Authority in legal strategy and financial protection. We handle the paperwork so you can focus on what matters most.
               </p>
