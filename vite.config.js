@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/licforyou/', // important for deploying to github pages directly without exact repo path
+  build: {
+    outDir: 'docs',
+  }
 })
