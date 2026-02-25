@@ -20,14 +20,14 @@ function App() {
         <div className="container nav-content">
           <div className="logo">
             <ShieldCheck size={32} color="var(--lic-navy)" />
-            SecureLex <span>Advisors</span>
+            LIC <span>for you</span>
           </div>
           <div className="nav-links">
             <a href="#services">Services</a>
             <a href="#about">About</a>
             <a href="#trust">Why Us</a>
             <a href="#contact">Contact</a>
-            <button className="btn-primary">Get Consultation</button>
+            <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-primary" style={{ textDecoration: 'none' }}>Get Consultation</a>
           </div>
         </div>
       </nav>
@@ -44,9 +44,9 @@ function App() {
               and taxation with uncompromising integrity.
             </p>
             <div className="hero-cta">
-              <button className="btn-accent">
+              <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ textDecoration: 'none', display: 'inline-flex' }}>
                 Book a Confidential Review <ChevronRight size={20} />
-              </button>
+              </a>
               <button className="btn-primary" style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)' }}>
                 Explore Services
               </button>
@@ -108,7 +108,7 @@ function App() {
           <div className="trust-content">
             <h2>Authority You Can Rely On.</h2>
             <p style={{ color: 'var(--text-light)', fontSize: '1.125rem', marginBottom: '1.5rem' }}>
-              We are not a startup experimenting with advice. SecureLex Advisors is built on a
+              We are not a startup experimenting with advice. LIC for you is built on a
               foundation of hard-earned trust, meticulous attention to detail, and a deep understanding
               of both statutory frameworks and financial instruments.
             </p>
@@ -145,9 +145,9 @@ function App() {
         <div className="container">
           <h2>Ready to secure your legacy?</h2>
           <p>Schedule a preliminary consultation with our senior advisors to map out your legal and financial perimeter.</p>
-          <button className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.125rem' }}>
-            Contact Our Office <Phone size={20} style={{ marginLeft: '10px' }} />
-          </button>
+          <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.125rem', textDecoration: 'none' }}>
+            Chat on WhatsApp <Phone size={20} style={{ marginLeft: '10px' }} />
+          </a>
         </div>
       </section>
 
@@ -158,7 +158,7 @@ function App() {
             <div className="footer-col" style={{ gridColumn: 'span 1' }}>
               <div className="footer-logo">
                 <ShieldCheck size={24} color="var(--lic-yellow)" style={{ display: 'inline', verticalAlign: 'middle', marginRight: '8px' }} />
-                SecureLex <span>Advisors</span>
+                LIC <span>for you</span>
               </div>
               <p className="footer-about">
                 Authority in legal strategy and financial protection. We handle the paperwork so you can focus on what matters most.
@@ -188,15 +188,15 @@ function App() {
             <div className="footer-col">
               <h4>Contact</h4>
               <div className="footer-links">
-                <a href="#">+91 (800) 123-4567</a>
-                <a href="#">advisory@securelex.in</a>
+                <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer">+91 98661 07969</a>
+                <a href="mailto:balagangadharc@gmail.com">balagangadharc@gmail.com</a>
                 <a href="#">1204 Financial District,<br />New Delhi, India 110001</a>
               </div>
             </div>
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} SecureLex Advisors. All rights reserved. Not affiliated with Life Insurance Corporation of India (LIC).</p>
+            <p>&copy; {new Date().getFullYear()} LIC for you. All rights reserved.</p>
           </div>
         </div>
       </footer>
