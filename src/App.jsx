@@ -36,10 +36,10 @@ function App() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge">Insurance · Financial Planning · Advisory</div>
-            <h1>Complete Financial Protection & Wealth Management.</h1>
+            <div className="hero-badge">23 Years of Experience in LIC</div>
+            <h1>Securing Families & Empowering Dreams through LIC.</h1>
             <p>
-              With over 23 years of dedicated service in LIC, we provide robust financial protection and comprehensive advisory services. From securing your family's future to estate planning and wealth management with uncompromising integrity.
+              With over 23 years of dedicated experience in LIC, we help people achieve lifelong financial security. From robust life insurance policies to comprehensive wealth planning, we ensure your family’s dreams are protected under every circumstance.
             </p>
             <div className="hero-cta">
               <a href="https://wa.me/919866107969" target="_blank" rel="noreferrer" className="btn-accent" style={{ textDecoration: 'none', display: 'inline-flex' }}>
@@ -57,8 +57,8 @@ function App() {
       <section className="features" id="services">
         <div className="container">
           <div className="section-header">
-            <h2>Comprehensive Insurance & Financial Advisory</h2>
-            <p>From securing your family’s future with top-tier insurance to solidifying your long-term wealth strategy, we offer holistic consultation backed by 23 years of LIC excellence.</p>
+            <h2>How We Help You Secure Your Future</h2>
+            <p>Driven by 23 years of excellence in LIC, we offer specialized financial planning services that ensure your family is protected at every stage of life.</p>
           </div>
 
           <div className="features-grid">
@@ -66,24 +66,24 @@ function App() {
               <div className="feature-icon">
                 <ShieldCheck />
               </div>
-              <h3>Insurance Advisory</h3>
-              <p>Strategic financial protection mapping. We ensure that life, health, and corporate liabilities are mitigated with authoritative policies.</p>
+              <h3>Life Insurance Plans</h3>
+              <p>Tailored LIC policies designed to protect your family's standard of living, ensuring complete financial security and peace of mind even in your absence.</p>
             </div>
 
             <div className="feature-card">
               <div className="feature-icon">
                 <Briefcase />
               </div>
-              <h3>Wealth Management</h3>
-              <p>Strategic financial planning for individuals and families. We help you build a secure future through disciplined saving and investment strategies.</p>
+              <h3>Retirement & Pension</h3>
+              <p>Secure your golden years with stable, lifelong income through LIC's guaranteed pension and annuity plans, allowing you to age with absolute dignity.</p>
             </div>
 
             <div className="feature-card">
               <div className="feature-icon">
                 <Landmark />
               </div>
-              <h3>Estate & Tax Planning</h3>
-              <p>Long-term wealth preservation. Trust structures, succession planning, and taxation optimization handled by certified professionals.</p>
+              <h3>Child Education & Marriage</h3>
+              <p>Invest early in your children's future. Our specialized LIC plans guarantee funds are available exactly when needed for higher education or marriage milestones.</p>
             </div>
           </div>
         </div>
